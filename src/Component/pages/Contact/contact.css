@@ -1,0 +1,24 @@
+.profile-img{
+          width: 35%;
+          
+          border-radius: 100%;
+         
+          
+      
+}
+
+.middle-container2{
+         
+          display: flex;
+          background-color: #58ACFA;
+          color: yellow;
+          margin: 45px ;
+}
+.profile-row{
+          /* position: relative; */
+          right: 150px;
+          
+}
+.contract-details{
+          display: flex;
+}

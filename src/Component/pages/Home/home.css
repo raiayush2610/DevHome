@@ -1,0 +1,92 @@
+.middle-img{
+          height:400px;
+          width: 100%;
+          transition-delay: 10s;
+          transition: width 20s;
+        }
+.title-city{
+  padding-left: 20px;
+}
+        
+
+.middle-container{
+          position: relative;
+       
+}
+
+.middle-h2{
+          
+          position: absolute;
+          top: 70%;
+          left:40%;
+          color:#ffff;
+          font-size:312.5% ;
+          
+            -webkit-animation: display .5s linear forwards;
+            animation: display .5s linear forwards;
+          
+
+}  
+.midle-h2{
+  opacity: 0;
+
+  transition: ease-in-out;
+
+}
+.middle-h2:hover{
+  text-shadow: 0 1px 0 rgb(46, 38, 88), 0 2px 0 rgb(39, 25, 106),
+                0 3px 0 rgb(96, 42, 197), 0 4px 0 rgb(27, 5, 108),
+                0 5px 0 rgb(85, 96, 170), 0 6px 0 rgb(46, 20, 188),
+                0 7px 0 rgb(46, 67, 225), 0 8px 0 rgb(44, 84, 205),
+                0 9px 0 rgb(52, 40, 222), 0 10px 0 rgb(34, 23, 193),
+                0 11px 0 rgb(46, 16, 243), 0 12px 0 rgb(31, 7, 245),
+                0 20px 30px rgba(51, 14, 235, 0.5);
+        
+}
+@media only screen and (max-width: 500px) {
+ 
+  .middle-h2{
+          
+    position: absolute;
+    top: 60%;
+    left:10%;
+    color:#ffff;
+    font-size:200% ;
+    transition: opacity-in-out;
+    transition: opacity 1s ease;
+    transition: width 20s;
+
+}  
+}
+@media only screen and (max-width: 720px) {
+ 
+  .middle-h2{
+          
+    position: absolute;
+    top: 60%;
+    left:10%;
+    color:rgb(220, 27, 27);
+    font-size:200% ;
+    transition: opacity-in-out;
+    transition: opacity 1s ease;
+    transition: width 20s;
+
+}  
+}
+@media  only screen and (max-width: 800px) {
+  .middle-h2{
+          
+    position: absolute;
+    top: 5%;
+    left:55%;
+    color:rgb(249, 249, 249);
+    font-size:200% ;
+    transition: opacity-in-out;
+    transition: opacity 1s ease;
+    transition: width 20s;
+
+}  
+  
+}
+
+              

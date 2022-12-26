@@ -1,0 +1,25 @@
+.nav a{
+          position: relative;
+          left: 650px;
+          top: 4px;
+}
+
+
+@media  only screen and (max-width: 1250px) {
+          .nav a{
+                    position: relative;
+                    left: 250%;
+                    color: red;
+                    top: 4px;
+          }
+
+}
+@media  only screen and (max-width: 650px) {
+          .nav a{
+                    position: relative;
+                    left: 120%;
+                    color: rgb(13, 0, 255);
+                    top: 1px;
+          }
+
+}

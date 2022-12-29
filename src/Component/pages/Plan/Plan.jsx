@@ -3,7 +3,7 @@ import React from 'react'
 function Plan() {
   return (
     <div>
-      <h1>tjis is plan page</h1>
+      <h3>We are explanding day by day to grow </h3>
     </div>
   )
 }

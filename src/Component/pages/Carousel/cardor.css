@@ -1,0 +1,79 @@
+body{
+    background-color: aqua;
+}
+    
+.carousel{
+    width: 900px;
+    height: 182px;
+    margin: 40px 45px  250px  19%;
+
+}
+.carso-img{
+          width: 900px;
+          height: 320px;
+}
+.carousel-control-prev{
+    height: 350px;
+}
+.carousel-control-next{
+    height: 350px;
+}
+.carousel .carousel-control-prev-icon{
+    visibility: hidden;
+}
+.carousel:hover .carousel-control-prev-icon{
+    visibility: visible;
+}
+.carousel .carousel-control-next-icon{
+    visibility: hidden;
+}
+.carousel:hover .carousel-control-next-icon{
+    visibility: visible;
+}
+@media  only screen and (max-width: 650px) {
+    .carousel{
+        width: 50%;
+        height: 150px;
+        margin: 45px 45px  105px  25%;
+    
+    }
+    .carso-img{
+        width: 100%;
+        height: 200px;
+}
+    .carousel-control-prev{
+        height: 200px;
+    }
+    .carousel-control-next{
+        height: 200px;
+    }
+
+}
+/*
+      #pricing{
+          background-color: #2EFEF7;
+          color: blueviolet;
+          padding-top: 60px;
+      }
+      #PlotAvail
+      {   
+          display: flex;
+          background-color: pink;
+          color: white;
+          padding: 40px 40px 4px 40px ;
+          margin:  45px 45px 45px 45px;
+      }
+      .carousel-item{
+          padding: 45px 45px 90px 45px 0;
+          margin: 45px;
+      }
+      
+       
+      .profile-img{
+          width: 15%;
+          float: right;
+          border-radius: 100%;
+          margin-right: 30;
+      
+      } */
+      

@@ -1,7 +1,7 @@
 import React ,{useState,useEffect} from 'react'
 
 import main from '../../imgs/6.jpg';
-import Feature from './Feature';
+
 import './home.css'
 
 function Home() {
@@ -28,7 +28,7 @@ function Home() {
       </div>
 
     </div>
-       <Feature/>
+       
       
         
     </>

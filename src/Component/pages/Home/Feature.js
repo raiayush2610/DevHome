@@ -1,22 +1,27 @@
 import "./Feature.css"
-
 import image1 from '../../imgs/7.jpg';
 import image2 from '../../imgs/9.jpg';
 import image3 from '../../imgs/8.jpg';
-
+import image4 from '../../imgs/4.jpeg';
+import { Card } from "../Card/Card";
+import {Carousel} from "../Carousel/Carousel";
 
 import React  from 'react'
 
-import {  NavLink, useNavigate } from "react-router-dom";
-
-
+import { useNavigate } from "react-router-dom";
 
 function Feature() {
  const navigator = useNavigate()
 
   const Card1 = ()=>{
-    navigator('/plan')
+    navigator('/p')
   }
+const Card2 =()=>{
+  navigator('/p2')
+}
+const Card3 =()=>{
+  navigator('/p3')
+}
 
   return (
           <>
@@ -27,80 +32,15 @@ function Feature() {
             <h5 className="">Feature</h5>
           </div>
           <div className="feature-body">
-             {/* card 1 */}
-           <div className="card1">
-            <NavLink to ="/contact" className="a-nav nav-link">
-                <img  className="card-img"src={image1} alt="" srcset="" />
-              <div className="card-body">
-              <div className="card-title">
-                <h5 >3 bedrooms duplex</h5>
-                <p> Shivpur Varanasi</p>
-                <h4>₹4500 Crore</h4>
-                </div>
-                <div className="list-item">
-                 <div className="item1"><p>3BHK </p> 
-                     <p> duplex</p><p> House</p></div>
-                    <div className="item2"><p>1950 sft</p></div>
-                    <div className="item3"><p>5</p></div>
-                </div>
-              </div>
-              </NavLink>
-              <button className="card-button" type="button" onClick={Card1}>Book Now</button>
-              
-              </div>
-              {/* card 2 */}
-            <div className="card2">
-            <img  className="card-img"src={image2} alt="" srcset="" />
-            <div className="card-body">
-                <div className="card-title">
-                  <h5 >3 bedrooms duplex</h5>
-                  <p> Shivpur Varanasi</p>
-                  <h4>₹4500 Crore</h4>
-                </div>
-                {/* 3 bedrooms duplex */}
-                <div className="list-item">
-                 <div className="item1"><p>3 </p> 
-                     <p> Bedroom</p><p> Duplex</p></div>
-                    <div className="item2"><p>1950 sft</p></div>
-                    <div className="item3"><p>5</p></div>
-                </div>
-              </div>
-              <button className="card-button" type="button">Click Me!</button>
-            </div>
-
-            {/* card 3 */}
-            <div className="card3">
-            <img  className="card-img"src={image3} alt="" srcset="" />
-              <div className="card-body">
-                <div className="card-title">
-                  <h5>Dev Residency</h5>
-                  <p>RingRoad Varanasi</p>
-                  <h4>₹45 Crore</h4>
-                </div> 
-                <div className="list-item">
-                 <div className="item1"><p>3 </p> 
-                     <p> Bedroom</p><p>Duplex</p></div>
-                    <div className="item2"><p>1950 sft</p></div>
-                    <div className="item3"><p>5</p></div>
-                </div>
-              </div>
-              <button className="card-button" type="button">Click Me!</button>
-              </div>
+             
+             <Card Image={image4}  Title1={" Duplex House"}palace={"Shivpur Varanasi"}price={"₹40 Lakh "}item2={"600 +600 sq"}p1={"3BHK" }p2={ "Duplex"}p3={"House"}item3={5}btn1={Card1} />
+             <Card Image={image2}  Title1={" 3 bedrooms duplex"}palace={"Shivpur Varanasi"}price={"₹4500"}item2={"15250 sq"}p1={"3BHK" }p2={ "duplex"}p3={"House"}item3={5}btn1={Card2} />
+             <Card Image={image3}  Title1={" Dev Residency"}palace={"RingRoad Varanasi"}price={"₹4500"}item2={"15250 sq"}p1={"3BHK" }p2={"duplex"}p3={"House"}item3={5}btn1={Card3} />
+             
           </div>
-
+             <Carousel Image1={image3} Image2={image2} Image3={image1}/>
+         
       </div>
-
-   
-
-      
-    
-    
-  
-    
-    
-    
-    
-    
     </>
   
   )

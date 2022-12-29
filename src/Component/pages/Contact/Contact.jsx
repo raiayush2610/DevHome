@@ -13,8 +13,9 @@ function Contact() {
        
         <p>BHEL GATE Tarana Shivpur</p>
         <div className="contract-details">
-        <p><a className="btn" href="mailto:ayushayushravi@email.com">CONTACT ME THROUGHT MAIL</a></p>
-        <p><a className="btn" href="tel:+5454548">Secondary Number</a>  </p>
+        <p><a className="btn" href="mailto:ayushayushravi@gmail.com">CONTACT ME THROUGHT MAIL</a></p>
+        <p><a className="btn" href="tel:+918115164343">Primary Number</a>  </p>
+        <p><a className="btn" href="tel:+916307108908">Secondary  Number</a>  </p>
        
         </div>
       </div>

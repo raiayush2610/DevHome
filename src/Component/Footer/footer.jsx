@@ -13,9 +13,9 @@ const Footer = () =>{
     <div className="footer">
   
  <a href="https://www.facebook.com/"><BsFacebook className="social-icon"/></a>
- <a href="https://www.instagram.com"><BsInstagram className="social-icon" size={20}/></a>
- <a href="https://in.linkedin.com/"><AiFillLinkedin className="social-icon"/></a>
- <a href="https://github.com/"><AiFillGithub className="social-icon"/></a>
+ <a href="https://www.instagram.com"><BsInstagram className="social-icon" /></a>
+
+
  <p className="copyright"> &copy; Copyright  Dev Builder {date}  </p>
             </div>
     

@@ -1,0 +1,15 @@
+.prop{
+          margin: 45px;
+}
+.Flat-body{
+          /* Top right down left */
+          margin: 2% 10% 2%  20%;
+          
+          border: 1px solid;
+          
+}
+.flat-title h3{
+          align-content: center;
+}
+a:link { text-decoration: none; } 
+a:hover { color: red; }

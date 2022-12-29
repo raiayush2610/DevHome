@@ -11,23 +11,31 @@ import Feature from './Component/pages/Home/Feature';
 import Plan from './Component/pages/Plan/Plan';
 import About from './Component/pages/Aboutus/About';
 import List from './Component/pages/ListProper/List'
+
+ import Property from './Component/pages/Property/Property'
+ import Property2 from './Component/pages/Property/Propety2'
+ import Property3 from './Component/pages/Property/Property3'
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
-import Carousel from './Component/pages/Carousel/Carousel';
+
 function App() {
   return (
     
     <>
      <Router>
      <Navbar/>
+     <Home/>
                 <Routes>
                   
-                    <Route path = "/" element = {<Home />}/>
+                    <Route path = "/" element = {<Feature/>}/>
                     <Route path = "/aboutus" element = {<About/>}/>
                     <Route path = "/contact" element = {<Contact />}/>
                     <Route path = "/Feature" element = {<Feature/>}/>
-                    <Route path = "/caro" element = {<Carousel/>}/>
+                    
                     <Route path = "/listprov" element = {<List/>}/>
                     <Route path = "/plan" element = {<Plan/>}/>
+                    <Route path = "/p" element = {<Property/>}/>
+                    <Route path = "/p2" element = {<Property2/>}/>
+                    <Route path = "/p3" element = {<Property3/>}/>
                     <Route path = "/admin" element = {<Admin />}/>
                     <Route path= '*' element ={<NoPage/>}/>
                     

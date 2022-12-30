@@ -16,7 +16,7 @@ export const Card  = ({Link,Image,Title1,palace,price,item2,p1,p2,p3,item3,btn1}
                 </div>
                 <div className="list-item">
                  <div className="item1"><p>{p1} </p> 
-                     <p> {p2}</p><p> p3</p></div>
+                     <p> {p2}</p><p>{ p3}</p></div>
                     <div className="item2"><p>{item2}</p></div>
                     <div className="item3"><p>{item3}</p></div>
                 </div>

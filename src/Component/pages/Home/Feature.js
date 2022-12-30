@@ -33,9 +33,9 @@ function Feature() {
           </div>
           <div className="feature-body">
              
-             <Card Image={image4} Link={"/p"} Title1={" Duplex House"}palace={"Shivpur Varanasi"}price={"₹40 Lakh "}item2={"600 +600 sq"}p1={"3BHK" }p2={ "Duplex"}p3={"House"}item3={5}btn1={Card1} />
-             <Card Image={image4} Link={"/p"} Title1={" Duplex House"}palace={"Shivpur Varanasi"}price={"₹40 Lakh "}item2={"600 +600 sq"}p1={"3BHK" }p2={ "Duplex"}p3={"House"}item3={5}btn1={Card1} />
-             <Card Image={image4} Link={"/p"} Title1={" Duplex House"}palace={"Shivpur Varanasi"}price={"₹40 Lakh "}item2={"600 +600 sq"}p1={"3BHK" }p2={ "Duplex"}p3={"House"}item3={5}btn1={Card1} />
+             <Card Image={image4} Link={"/p"} Title1={" Duplex House"}palace={"Shivpur Varanasi"}price={"₹40 Lakh "}item2={"600 +600 sq"}p1={"" }p2={ "Duplex"}p3={"House"}item3={21}btn1={Card1} />
+             <Card Image={image4} Link={"/p"} Title1={" Duplex House"}palace={"Shivpur Varanasi"}price={"₹40 Lakh "}item2={"600 +600 sq"}p1={"" }p2={ "Duplex"}p3={"House"}item3={21}btn1={Card1} />
+             <Card Image={image4} Link={"/p"} Title1={" Duplex House"}palace={"Shivpur Varanasi"}price={"₹40 Lakh "}item2={"600 +600 sq"}p1={"" }p2={ "Duplex"}p3={"House"}item3={21}btn1={Card1} />
              
           </div>
              <Carousel Image1={image3} Image2={image2} Image3={image1}/>

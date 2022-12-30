@@ -30,32 +30,18 @@
           }
           .profile-row{
                     position: relative;
-                    margin: 10px 1px 20px 15px;
-                    left: 30px;
+                    margin: 30px 1px 10px 05px;
+                    left: 14px;
+                    bottom: 30px;
                     
           }
           .image-div{
                     width: 600%;
           }
-
-
-}
-@media  only screen and (max-width: 400px) {
-          .profile-img{
-                    width: 100px;
-                    border-radius: 0;
-                    height: 200px;
-                    
-                
-          }
-          .profile-row{
-                    position: relative;
-                    margin: 10px 1px 20px 15px;
-                    left: 30px;
-                    
-          }
-          .image-div{
-                    width: 600%;
+          .contract-details{
+                    left: 6px;
+                    bottom: 30px;
+                    right: 45px;
           }
 
 

@@ -14,14 +14,14 @@ function Feature() {
  const navigator = useNavigate()
 
   const Card1 = ()=>{
-    navigator('/p')
+    navigator('/contact')
   }
-const Card2 =()=>{
-  navigator('/p2')
-}
-const Card3 =()=>{
-  navigator('/p3')
-}
+// const Card2 =()=>{
+//   navigator('/contact')
+// }
+// const Card3 =()=>{
+//   navigator('/contact')
+// }
 
   return (
           <>
@@ -33,9 +33,9 @@ const Card3 =()=>{
           </div>
           <div className="feature-body">
              
-             <Card Image={image4}  Title1={" Duplex House"}palace={"Shivpur Varanasi"}price={"₹40 Lakh "}item2={"600 +600 sq"}p1={"3BHK" }p2={ "Duplex"}p3={"House"}item3={5}btn1={Card1} />
-             <Card Image={image2}  Title1={" 3 bedrooms duplex"}palace={"Shivpur Varanasi"}price={"₹4500"}item2={"15250 sq"}p1={"3BHK" }p2={ "duplex"}p3={"House"}item3={5}btn1={Card2} />
-             <Card Image={image3}  Title1={" Dev Residency"}palace={"RingRoad Varanasi"}price={"₹4500"}item2={"15250 sq"}p1={"3BHK" }p2={"duplex"}p3={"House"}item3={5}btn1={Card3} />
+             <Card Image={image4} Link={"/p"} Title1={" Duplex House"}palace={"Shivpur Varanasi"}price={"₹40 Lakh "}item2={"600 +600 sq"}p1={"3BHK" }p2={ "Duplex"}p3={"House"}item3={5}btn1={Card1} />
+             <Card Image={image4} Link={"/p"} Title1={" Duplex House"}palace={"Shivpur Varanasi"}price={"₹40 Lakh "}item2={"600 +600 sq"}p1={"3BHK" }p2={ "Duplex"}p3={"House"}item3={5}btn1={Card1} />
+             <Card Image={image4} Link={"/p"} Title1={" Duplex House"}palace={"Shivpur Varanasi"}price={"₹40 Lakh "}item2={"600 +600 sq"}p1={"3BHK" }p2={ "Duplex"}p3={"House"}item3={5}btn1={Card1} />
              
           </div>
              <Carousel Image1={image3} Image2={image2} Image3={image1}/>

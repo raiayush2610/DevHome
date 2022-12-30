@@ -2,11 +2,11 @@ import React from 'react'
 import './card.css'
 import {  NavLink } from "react-router-dom";
 
-export const Card  = ({Image,Title1,palace,price,item2,p1,p2,p3,item3,btn1})=>{
+export const Card  = ({Link,Image,Title1,palace,price,item2,p1,p2,p3,item3,btn1})=>{
   return (
     <>
       <div className="card1">
-            <NavLink to ="/contact" className="a-nav nav-link">
+            <NavLink to ={Link} className="a-nav nav-link">
                 <img  className="card-img"src={Image} alt="" srcset="" />
               <div className="card-body">
               <div className="card-title">

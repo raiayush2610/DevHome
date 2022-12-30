@@ -2,8 +2,7 @@ import "./footer.css";
 
 import { BsFacebook } from "react-icons/bs";
 import { BsInstagram } from "react-icons/bs";
-import { AiFillLinkedin } from "react-icons/ai";
-import { AiFillGithub} from "react-icons/ai";
+
 const Footer = () =>{
     
 

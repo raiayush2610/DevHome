@@ -11,13 +11,13 @@
 
 .middle-container{
           position: relative;
-       
+       margin-bottom: 80px;
 }
 
 .middle-h2{
           
           position: absolute;
-          top: 70%;
+          top: 60%;
           left:40%;
           color:#ffff;
           font-size:312.5% ;
@@ -29,9 +29,13 @@
 }  
 .midle-h2{
   opacity: 0;
-
+  position: absolute;
+  top: 60%;
+  left:40%;
+  color:#ffff;
+  font-size:312.5%;
   transition: ease-in-out;
-
+ 
 }
 .middle-h2:hover{
   text-shadow: 0 1px 0 rgb(46, 38, 88), 0 2px 0 rgb(39, 25, 106),

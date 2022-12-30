@@ -29,20 +29,29 @@
                 
           }
           .profile-row{
-                    position: relative;
-                    margin: 30px 1px 10px 05px;
+                    /* position: relative; */
+                    margin: 0 1px 10px 05px;
                     left: 14px;
                     bottom: 30px;
                     
           }
           .image-div{
-                    width: 600%;
+                    width: 150%;
           }
           .contract-details{
                     left: 6px;
                     bottom: 30px;
                     right: 45px;
           }
+          .profile-row h1 p {
+                    font-weight: 10px;
+                    font-size: medium;
+                    
+          }
+          .contract-details .btn{
+                    
+          }
+
 
 
 }

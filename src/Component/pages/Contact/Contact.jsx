@@ -1,6 +1,8 @@
 import React from 'react'
 import "./contact.css"
 import propifle from '../../imgs/profile.png';
+import { Mail } from '../../Icon/Mail';
+import { Phone } from '../../Icon/Phone';
 function Contact() {
   return (
     <div className="middle-container2" >
@@ -13,9 +15,9 @@ function Contact() {
        
         <p>BHEL GATE Tarana Shivpur</p>
         <div className="contract-details">
-        <p><a className="btn" href="mailto:ayushayushravi@gmail.com">CONTACT ME THROUGHT MAIL</a></p>
-        <p><a className="btn" href="tel:+918115164343">Primary Number</a>  </p>
-        <p><a className="btn" href="tel:+916307108908">Secondary  Number</a>  </p>
+        <p><a className="btn" href="mailto:ayushayushravi@gmail.com"><Mail/></a></p>
+        <p><a className="btn" href="tel:+918115164343"><Phone/></a>  </p>
+        <p><a className="btn" href="tel:+916307108908"><Phone/></a>  </p>
        
         </div>
       </div>

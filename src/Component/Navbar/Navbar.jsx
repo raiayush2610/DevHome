@@ -5,9 +5,9 @@ function Navbar() {
 
   return (
     <div>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav class="navbar  navbar-expand-lg navbar-dark bg-dark">
         <div className='nav'>
-        <NavLink to = "/" className="navbar-brand">Dev Builder
+        <NavLink to = "/" className="navbar-brand">Dev Home
         </NavLink>
         </div>
         

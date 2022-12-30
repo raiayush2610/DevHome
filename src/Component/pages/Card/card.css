@@ -6,20 +6,7 @@
           padding:5px;
           background-color: #ffff;
 }
-.card2{
-  flex-grow: 2;
-  margin: 0 10% 5% 0;
-  border: 1px solid;
-  padding:5px;
-  background-color: #ffff;
-}
-.card3{
-  flex-grow: 3;
-  margin: 0 10% 5% 0;
-  border: 1px solid;
-  padding:5px;
-  background-color: white
-}
+
 .card-img{
   width: 220px;
 }

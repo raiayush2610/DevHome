@@ -1,9 +1,7 @@
 .profile-img{
-          width: 35%;
+          width: 55%;
           
           border-radius: 100%;
-         
-          
       
 }
 
@@ -21,4 +19,44 @@
 }
 .contract-details{
           display: flex;
+}
+@media  only screen and (max-width: 650px) {
+          .profile-img{
+                    width: 100px;
+                    border-radius: 0;
+                    height: 200px;
+                    
+                
+          }
+          .profile-row{
+                    position: relative;
+                    margin: 10px 1px 20px 15px;
+                    left: 30px;
+                    
+          }
+          .image-div{
+                    width: 600%;
+          }
+
+
+}
+@media  only screen and (max-width: 400px) {
+          .profile-img{
+                    width: 100px;
+                    border-radius: 0;
+                    height: 200px;
+                    
+                
+          }
+          .profile-row{
+                    position: relative;
+                    margin: 10px 1px 20px 15px;
+                    left: 30px;
+                    
+          }
+          .image-div{
+                    width: 600%;
+          }
+
+
 }

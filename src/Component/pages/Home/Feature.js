@@ -24,7 +24,7 @@ function Feature() {
       
       <div className="feature">
           <div className="feature-title center">
-            <h5 className="">Feature</h5>
+            <h5 className="">Featufgvfre</h5>
           </div>
           <div className="feature-body">
              

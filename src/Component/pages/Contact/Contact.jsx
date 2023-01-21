@@ -1,17 +1,17 @@
 import React from 'react'
 import "./contact.css"
-import propifle from '../../imgs/profile.png';
+import profile from '../../imgs/profile.png';
 import { Mail } from '../../Icon/Mail';
 import { Phone } from '../../Icon/Phone';
 function Contact() {
   return (
     <div className="middle-container2" >
       <div className='image-div'>
-        <img  className="profile-img" src={propifle} alt="" srcset=""/>
+        <img  className="profile-img" src={profile} alt="" srcset=""/>
       </div>
     <div className="profile-row">
         <h1>Anil Singh</h1>
-        <p>Head And Ceo of Dev Home </p>
+        {/* <p>Head And Ceo of Dev Home </p> */}
        
         <p>BHEL GATE Tarana Shivpur</p>
         <div className="contract-details">

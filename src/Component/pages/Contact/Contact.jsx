@@ -11,7 +11,7 @@ function Contact() {
       </div>
     <div className="profile-row">
         <h1>Anil Singh</h1>
-        {/* <p>Head And Ceo of Dev Home </p> */}
+        <p> Dev Home </p>
        
         <p>BHEL GATE Tarana Shivpur</p>
         <div className="contract-details">

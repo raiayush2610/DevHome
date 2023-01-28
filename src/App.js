@@ -24,7 +24,7 @@ function App() {
     <>
      <Router>
      <Navbar/>
-     {/* <Home/> */}
+     <Home/>
                 <Routes>
                   
                     <Route path = "/" element = {<Feature/>}/>

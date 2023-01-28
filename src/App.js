@@ -17,7 +17,7 @@ import Card1 from './Component/pages/Card/card1';
  import Property2 from './Component/pages/Property/Propety2'
  import Property3 from './Component/pages/Property/Property3'
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
-
+// sd
 function App() {
   return (
     

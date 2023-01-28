@@ -3,7 +3,7 @@ import React from 'react'
 function List() {
   return (
     <div>
-      <h1>There are 10 property listed on us, Soon we are climbing the next level.</h1>
+      <h1>There are 10 property listed here, And soon many more to come.</h1>
     </div>
   )
 }

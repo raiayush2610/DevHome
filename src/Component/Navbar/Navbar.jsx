@@ -16,9 +16,9 @@ function Navbar() {
         </button>
       <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ms-auto">
-        <li class="nav-item"><NavLink to = "/listprov" className="a-nav nav-link active">Listinting Property</NavLink></li>
+        <li class="nav-item"><NavLink to = "/listprov" className="a-nav nav-link active">Listing Properties</NavLink></li>
         <li class="nav-item"><NavLink to = "/aboutus" className="a-nav nav-link active">About Us</NavLink></li>
-        <li class="nav-item"><NavLink to = "/plan" className="a-nav nav-link active">Futute plan</NavLink></li>
+        <li class="nav-item"><NavLink to = "/plan" className="a-nav nav-link active">Future Plan</NavLink></li>
         <li class="nav-item"><NavLink to ="/contact" class="a-nav nav-link active" className="a-nav nav-link active" >Contact Us</NavLink>
         </li>        
       </ul>

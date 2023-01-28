@@ -11,6 +11,7 @@ import Feature from './Component/pages/Home/Feature';
 import Plan from './Component/pages/Plan/Plan';
 import About from './Component/pages/Aboutus/About';
 import List from './Component/pages/ListProper/List'
+import Card1 from './Component/pages/Card/card1';
 
  import Property from './Component/pages/Property/Property'
  import Property2 from './Component/pages/Property/Propety2'
@@ -23,13 +24,14 @@ function App() {
     <>
      <Router>
      <Navbar/>
-     <Home/>
+     {/* <Home/> */}
                 <Routes>
                   
                     <Route path = "/" element = {<Feature/>}/>
                     <Route path = "/aboutus" element = {<About/>}/>
                     <Route path = "/contact" element = {<Contact />}/>
                     <Route path = "/Feature" element = {<Feature/>}/>
+                    <Route path = "/c" element = {<Card1/>}/>
                     
                     <Route path = "/listprov" element = {<List/>}/>
                     <Route path = "/plan" element = {<Plan/>}/>

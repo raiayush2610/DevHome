@@ -36,6 +36,35 @@
                     
           }
           .image-div{
+                    width: 100px;
+          }
+          .contract-details{
+                    /* left: 6px; */
+                    bottom: 30px;
+                    right: 45px;
+          }
+          .profile-row h1 p {
+                    font-weight: 5px;
+                    font-size: medium;
+                    
+          }
+          .contract-details .btn{
+                    
+          }
+}
+@media  only screen and (max-width: 450px) {
+          .profile-img{
+                    width: 100px;
+                    border-radius: 0;
+                    height: 200px;      
+          }
+          .profile-row{
+                    /* position: relative; */
+                    margin: 0 1px 10px 05px;
+                    left: 400px;
+                    bottom: 30px;
+          }
+          .image-div{
                     width: 150%;
           }
           .contract-details{

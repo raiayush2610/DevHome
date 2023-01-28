@@ -3,7 +3,7 @@ import React ,{useState,useEffect} from 'react'
 import main from '../../imgs/6.jpg';
 
 import './home.css'
-
+//ejkfddcfkkfewrhjfhejwefh
 function Home() {
   const[fadepro,setfadepro]= useState({
     fade: 'midle-h2'}
@@ -26,8 +26,7 @@ function Home() {
           <h1 id="codespeedy"> DEV HOMES </h1>
           <h1 id="codespeedy" className='title-city'> VARANASI</h1>
       </div>
-
-    </div>
+      </div>
        
       
         

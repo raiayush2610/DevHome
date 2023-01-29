@@ -1,3 +1,6 @@
+.feature{
+  background-color: rgb(156, 167, 151);
+}
 .middle-img{
           height:400px;
           width: 100%;
@@ -15,17 +18,13 @@
 }
 
 .middle-h2{
-          
-          position: absolute;
-          top: 60%;
-          left:40%;
-          color:#ffff;
-          font-size:312.5% ;
-          
-            -webkit-animation: display .5s linear forwards;
-            animation: display .5s linear forwards;
-          
-
+  position: absolute;
+  top: 60%;
+  left:40%;
+  color:#ffff;
+  font-size:312.5% ;
+    -webkit-animation: display .5s linear forwards;
+    animation: display .5s linear forwards;
 }  
 .midle-h2{
   opacity: 0;

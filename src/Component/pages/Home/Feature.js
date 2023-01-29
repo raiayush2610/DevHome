@@ -1,12 +1,12 @@
 import "./Feature.css"
+
 import image1 from '../../imgs/7.jpg';
 import image2 from '../../imgs/9.jpg';
 import image3 from '../../imgs/8.jpg';
 import image4 from '../../imgs/4.jpeg';
 import { Card } from "../Card/Card";
 import {Carousel} from "../Carousel/Carousel";
-
-import React  from 'react'
+import Home from "./Home"
 
 import { useNavigate } from "react-router-dom";
 
@@ -20,6 +20,7 @@ function Feature() {
 
   return (
           <>
+          <Home/>
      
       
       <div className="feature">
@@ -36,9 +37,13 @@ function Feature() {
              <Carousel Image1={image3} Image2={image2} Image3={image1}/>
          
       </div>
+      
+       
+      
     </>
   
   )
 }
+
 
 export default Feature;

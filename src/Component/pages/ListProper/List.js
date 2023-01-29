@@ -1,8 +1,8 @@
 import React from 'react'
-
+import './list.css'
 function List() {
   return (
-    <div>
+    <div className='list-pro'>
       <h1>There are 10 property listed here, And soon many more to come.</h1>
     </div>
   )

@@ -24,6 +24,20 @@
           display: flex;
           
 }
+@media only screen and (max-width: 750px) {
+
+  .feature-body{
+    /* Top right down left */
+    margin: 0;
+    display: flex;
+  }
+  .feature-body{
+    display: inline-block;
+    margin: 0 0 0 16%;
+  }
+  
+  
+  }
 
        
 

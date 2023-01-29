@@ -11,12 +11,13 @@
           background-color: #58ACFA;
           color: yellow;
           margin: 45px ;
+          border-radius: 20px;
 }
-.profile-row{
-          /* position: relative; */
+/* .profile-row{
+          
           right: 150px;
           
-}
+} */
 .contract-details{
           display: flex;
 }
@@ -25,15 +26,16 @@
                     width: 100px;
                     border-radius: 0;
                     height: 200px;
-                    
-                
+                    border-radius: 20px;
           }
-          .profile-row{
-                    /* position: relative; */
-                    margin: 0 1px 10px 05px;
-                    left: 14px;
-                    bottom: 30px;
-                    
+          .middle-container2{
+         
+                    display: flex;
+                    background-color: #58ACFA;
+                    color: rgb(14, 164, 14);
+                    margin: 45px ;
+                    padding: 1px 2px 13px 4px;
+                    border-radius: 20px;
           }
           .image-div{
                     width: 100px;
@@ -42,45 +44,17 @@
                     /* left: 6px; */
                     bottom: 30px;
                     right: 45px;
+                    padding: 5px 10px 20px 45px;
           }
-          .profile-row h1 p {
-                    font-weight: 5px;
-                    font-size: medium;
+          .details{
+                    padding: 5px 15px 0 32px;
+          }
+          .details p {
+                    padding-left: 15px;
                     
-          }
-          .contract-details .btn{
-                    
-          }
-}
-@media  only screen and (max-width: 450px) {
-          .profile-img{
-                    width: 100px;
-                    border-radius: 0;
-                    height: 200px;      
-          }
-          .profile-row{
-                    /* position: relative; */
-                    margin: 0 1px 10px 05px;
-                    left: 400px;
-                    bottom: 30px;
           }
           .image-div{
-                    width: 150%;
+                    padding-top: 5px;
           }
-          .contract-details{
-                    left: 6px;
-                    bottom: 30px;
-                    right: 45px;
-          }
-          .profile-row h1 p {
-                    font-weight: 10px;
-                    font-size: medium;
-                    
-          }
-          .contract-details .btn{
-                    
-          }
-
-
-
+          
 }

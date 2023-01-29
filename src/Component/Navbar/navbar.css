@@ -3,6 +3,9 @@
           left: 650px;
           top: 4px;
 }
+.nav-link:hover{
+          color: rgb(30, 0, 255)
+}
 
 
 @media  only screen and (max-width: 1250px) {
@@ -20,6 +23,9 @@
                     left: 120%;
                     color: rgb(13, 0, 255);
                     top: 1px;
+          }
+          .navbar-nav{
+                    align-items: center;
           }
 
 }

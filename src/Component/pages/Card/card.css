@@ -70,7 +70,7 @@ margin: 0 0 10px 0;}
   padding-left: 40px;
   text-decoration: none;
 }
-
+/* as */
 .card-button:hover {
   background: #3cb0fd;
   background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
@@ -81,16 +81,6 @@ margin: 0 0 10px 0;}
   text-decoration: none;
 }
 @media only screen and (max-width: 750px) {
-
-.feature-body{
-  /* Top right down left */
-  margin: 0;
-  display: flex;
-}
-.feature-body{
-  display: inline-block;
-  margin: 0 0 0 16%;
-}
 
 .card1{
   margin:10px  -15 1px 15px ;

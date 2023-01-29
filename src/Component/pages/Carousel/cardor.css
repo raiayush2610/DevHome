@@ -11,6 +11,7 @@ body{
 .carso-img{
           width: 900px;
           height: 320px;
+          border-radius: 20px;
 }
 .carousel-control-prev{
     height: 350px;

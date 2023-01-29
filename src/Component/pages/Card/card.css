@@ -1,14 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Limelight&family=Merriweather:ital,wght@1,300&display=swap');
 .card1{
           flex-grow: 1;
-          margin: 0 10% 5% 0;
+          margin: 0% 10% 5% 0%;
           border: 1px solid;
-          padding:5px;
+          padding:10px;
           background-color: #ffff;
+          border-radius: 20px;
+          /* bo */
+
 }
 
 .card-img{
-  width: 220px;
+  width: 190px;
+  margin: 0 10px 10px 5px 0 ;
+  border-radius: 20px;
 }
 .card-body{
   padding: 10px 10px 10px 7px ;
@@ -84,18 +89,15 @@ margin: 0 0 10px 0;}
 }
 .feature-body{
   display: inline-block;
-  margin: 0 0 0 26%;
+  margin: 0 0 0 16%;
 }
+
 .card1{
-  margin: 0 0 20px 0;
-}
-.card2{
-  margin: 0 0 20px 0;
-}
-.card3{
-  margin: 0 0 20px 0;
-}
+  margin:10px  -15 1px 15px ;
+  padding:25px;
+  border-radius: 20px;
+  background-color: rgb(204, 205, 217);
 
-
+}
 }
    
